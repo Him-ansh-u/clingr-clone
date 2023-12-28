@@ -42,6 +42,8 @@ const Footer = () => {
           borderRadius: "20px",
           background:
             "url(https://clingr.me/assets/images/media/landing/15.become-a-partner/background@md.webp)",
+          backgroundRepeat: "no-repeat",
+                backgroundSize: "auto",
         }}>
         <FlexCenter
           component={motion.div}
