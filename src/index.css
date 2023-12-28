@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Kdam+Thmor+Pro&family=Lora:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Nunito:ital,wght@0,400;0,500;1,700&family=Roboto:wght@400;500;700&display=swap");
+
+:root,
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #eee;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+  border-radius: 100px;
+}
+.hover-zoom {
+  z-index: 4;
+  position: absolute;
+  height: 400px;
+  margin-top: -10px;
+  margin-left: 5px;
+}
+.aboutImage {
+  aspect-ratio: 3/2;
+  height: 300px;
+  border: 1px solid #333;
+  position: absolute;
+  box-shadow: blue 0px 0px 0px 2px inset, transparent,
+    rgb(31, 193, 27) 10px -10px;
+}
